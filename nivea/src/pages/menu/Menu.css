@@ -1,0 +1,21 @@
+.menu{
+    flex:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    justify-content:center;
+    place-items:center;
+    margin:50px 0;
+}
+@media screen and (max-width:650px){
+    .menu{flex:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns:1fr;
+    align-items:center;
+    justify-content:center;
+    place-items:center;
+    margin:50px 0;
+    }
+}

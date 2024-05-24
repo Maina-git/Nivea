@@ -1,0 +1,95 @@
+.login{
+    display:flex;
+    flex-direction:column;
+    height:60vh;
+    justify-content:center;
+    align-items:center;
+    place-items:center;
+}
+.login .google{
+margin:10px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+place-items:center;
+}
+.google h1{
+padding:10px;
+margin:10px;
+font-size:20px;
+font-weight:bold;
+font-family:sans-serif;
+color:rgb(150, 11, 76);
+}
+.google .icon{
+    padding:2px 5px;
+}
+
+.google button{
+    width:auto;
+    margin:20px;
+    height:auto;
+    padding:10px;
+    background:lightgrey;
+    border:0;
+    outline:none;
+    border-radius:20px;
+    font-size:15px;
+    display:flex;
+    flex-direction:row;
+    cursor:pointer;
+}
+.login p{
+    font-size:20px;
+    font-family:sans-serif;
+}
+.email {
+display:flex;
+flex-direction:column;
+}
+
+.email h1{
+    font-size:20px;
+    font-family:sans-serif;
+    padding:10px;
+    margin:10px;
+    color:rgb(150, 11, 76);
+}
+
+.email label{
+    font-weight:bold;
+    font-size:15px;
+    margin:10px 0;
+    padding:10px 0;
+    font-family:sans-serif;
+}
+.email input{
+    background:none;
+    outline:none;
+    border:0;
+    border-bottom:1px solid  black;
+    color:grey;
+    padding:10px;
+}
+.email button{
+    width:100px;
+    cursor:pointer;
+    margin:20px 60px;
+    border:0;
+    outline:none;
+    padding:10px;
+    background:lightgrey;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+.nivea{
+    display:flex;
+    flex:100%;
+    height:auto;
+}
+
+.nivea .image{
+    width:50%;
+    height:auto;
+    margin:20px 10px;
+    text-align:center;
+}
+.image img{
+    width:600px;
+    margin:20px 30px;
+}
+.content{
+    width:100%;
+    height:auto;
+    margin:20px;
+    text-align:center;
+}
+.content h1{
+    margin-top:30px;
+    font-size:50px;
+    color:rgb(11, 11, 29);
+    font-family:sans-serif;
+}
+.content h2{
+    margin-top:30px;
+    font-size:20px;
+    color:rgb(11, 11, 29);
+    font-family:sans-serif;
+}
+
+
+.content p{
+    color:rgb(11, 11, 29);
+    font-size:15px;
+    font-family:sans-serif;
+    margin:50px 30px;
+}
+@media screen and (max-width:650px){
+
+
+    .nivea{
+        display:flex;
+        flex:100%;
+        flex-direction:column;
+        height:auto;
+    }
+    .nivea .image{
+        width:auto;
+        height:auto;
+        margin:20px 10px;
+        text-align:center;
+    }
+    .image img{
+        width:300px;
+        margin:10px;
+
+    }
+    .content{
+        width:100%;
+        height:auto;
+        margin:10px;
+        text-align:center;
+        padding:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
