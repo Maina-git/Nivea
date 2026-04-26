@@ -6,11 +6,11 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Menu({isAuth}){
-  const navigate=useNavigate();
+  //const navigate=useNavigate();
 
 useEffect(()=>{
   if(!isAuth){
-navigate("/login");
+//navigate("/login");
   }
 })
 
